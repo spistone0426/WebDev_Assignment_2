@@ -1,0 +1,41 @@
+table{
+    border: 1px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.active{
+    color: red;
+}
+
+#firstSection{
+    align-items: start;
+}
+
+html {
+    background: linear-gradient(lightblue, rgba(0, 205, 255, 0.69), rgba(2, 255, 175, 0.69)) no-repeat, fixed;
+    height: 100%;
+    background-size: 100%;
+    min-height: 100%;
+}
+
+th:hover{
+    background-color: rgba(24,12,6,0.16);
+}
+
+td:hover{
+    background-color: rgba(24,12,6,0.16);
+}
+
+tr.checked{
+    text-decoration: line-through;
+}
+
+tr.selected{
+    background-color: red;
+}
